@@ -16,4 +16,6 @@ Archivos estáticos (HTML + CSS puro, sin dependencias de build).
 - Fotos de Herrería y Plomería son temporales.
 - Créditos de fotos de Guatemala (Wikimedia Commons, CC BY-SA): están en el pie de página; mantenerlos.
 - Fuentes: Google Fonts (requiere internet).
-- Correo/WhatsApp de contacto son marcadores de posición.
+- Sección Proyectos con fichas de prueba: reemplazar por proyectos reales (o ocultar) antes de publicar.
+- Botón/enlace de WhatsApp pendiente (falta número).
+- Formulario de cotización: abre el correo del usuario hacia ventas@vstgt.com.
