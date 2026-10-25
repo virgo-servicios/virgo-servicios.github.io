@@ -60,13 +60,13 @@ body:has(#l-en:checked) .lema{font-size:clamp(22px,6.3vw,31px)}.lema>span{displa
 
 /* fotos de fondo del hero: cambian solas (en táctil no hay hover) */
 .mph{position:absolute;inset:0;overflow:hidden;pointer-events:none}
-.mph>div{position:absolute;inset:0;overflow:hidden;opacity:0;animation:bgfade 18s linear infinite}
-.mph>div:nth-child(2){animation-delay:9s}
+.mph>div{position:absolute;inset:0;overflow:hidden;opacity:0;animation:bgfade13 117s linear infinite}
+.mph>div:nth-child(2){animation-delay:9s}.mph>div:nth-child(3){animation-delay:18s}.mph>div:nth-child(4){animation-delay:27s}.mph>div:nth-child(5){animation-delay:36s}.mph>div:nth-child(6){animation-delay:45s}.mph>div:nth-child(7){animation-delay:54s}.mph>div:nth-child(8){animation-delay:63s}.mph>div:nth-child(9){animation-delay:72s}.mph>div:nth-child(10){animation-delay:81s}.mph>div:nth-child(11){animation-delay:90s}.mph>div:nth-child(12){animation-delay:99s}.mph>div:nth-child(13){animation-delay:108s}
 .mph img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;animation:kb 18s ease-in-out infinite alternate}
 .mph small{position:absolute;left:20px;top:16px;z-index:1;font-weight:700;font-size:11px;letter-spacing:.16em;color:#d9eef8}
 .mph b{position:absolute;left:20px;top:34px;z-index:1;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:800;font-size:22px;line-height:1;letter-spacing:-0.01em;color:#ffffff}
 .mph:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,20,28,.72),rgba(5,20,28,.05) 55%)}
-@keyframes bgfade{0%{opacity:0}8%{opacity:1}46%{opacity:1}54%{opacity:0}100%{opacity:0}}
+@keyframes bgfade13{0%{opacity:0}1.9%{opacity:1}7.69%{opacity:1}9.6%{opacity:0}100%{opacity:0}}@keyframes bgfade4{0%{opacity:0}6%{opacity:1}25%{opacity:1}31%{opacity:0}100%{opacity:0}}@keyframes bgfade{0%{opacity:0}8%{opacity:1}46%{opacity:1}54%{opacity:0}100%{opacity:0}}
 @keyframes kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-3%,-2%)}}
 
 /* símbolo giratorio */
@@ -206,7 +206,17 @@ i.es,i.en{font-style:normal}
 <div aria-hidden="true" style="position:relative;height:300px;overflow:hidden">
 <div class="mph">
 <div><img src="assets/img/jardineria.jpg" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Jardinería</i><i class="en" lang="en">Gardening</i></b></div>
-<div><img src="assets/img/pintura.jpg" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Pintura</i><i class="en" lang="en">Painting</i></b></div>
+<div><img src="assets/img/pintura.jpg" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Pintura</i><i class="en" lang="en">Painting</i></b></div><div><img src="assets/img/cerrajeria.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Cerrajería</i><i class="en" lang="en">Locksmith</i></b></div>
+<div><img src="assets/img/vidrieria.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Vidriería</i><i class="en" lang="en">Glazing</i></b></div>
+<div><img src="assets/img/electricidad.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Electricidad</i><i class="en" lang="en">Electrical</i></b></div>
+<div><img src="assets/img/cableado.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Cableado estructurado</i><i class="en" lang="en">Structured cabling</i></b></div>
+<div><img src="assets/img/aire.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Aire acondicionado</i><i class="en" lang="en">Air conditioning</i></b></div>
+<div><img src="assets/img/mantenimiento.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Mantenimiento</i><i class="en" lang="en">Maintenance</i></b></div>
+<div><img src="assets/img/construccion.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Construcción</i><i class="en" lang="en">Construction</i></b></div>
+<div><img src="assets/img/refrigeracion.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Refrigeración</i><i class="en" lang="en">Refrigeration</i></b></div>
+<div><img src="assets/img/cctv.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Seguridad y CCTV</i><i class="en" lang="en">Security and CCTV</i></b></div>
+<div><img src="assets/img/imagen-rotulacion.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Imagen y rotulación</i><i class="en" lang="en">Branding and signage</i></b></div>
+<div><img src="assets/img/limpieza.webp" alt=""><small><i class="es">ESPECIALIDAD</i><i class="en" lang="en">SPECIALTY</i></small><b><i class="es">Limpieza</i><i class="en" lang="en">Cleaning</i></b></div>
 </div>
 <div style="position:absolute;inset:0;background:rgba(255,255,255,.78);clip-path:polygon(calc(100% - 140px) 0,calc(100% - 134px) 0,calc(100% - 307px) 100%,calc(100% - 313px) 100%)"></div>
 <div style="position:absolute;inset:0;background:rgba(67,192,239,.85);clip-path:polygon(calc(100% - 122px) 0,calc(100% - 112px) 0,calc(100% - 285px) 100%,calc(100% - 295px) 100%)"></div>
@@ -226,8 +236,8 @@ i.es,i.en{font-style:normal}
 <!-- BANDA DE ESPECIALIDADES -->
 <section class="mqs" aria-label="Especialidades">
 <div class="mq" aria-hidden="true">
-<span><i class="es">Construcción</i><i class="en" lang="en">Construction</i></span><span><i class="es">Pintura</i><i class="en" lang="en">Painting</i></span><span><i class="es">Vidriería</i><i class="en" lang="en">Glazing</i></span><span><i class="es">Herrería</i><i class="en" lang="en">Metalwork</i></span><span><i class="es">Cerrajería</i><i class="en" lang="en">Locksmith</i></span><span><i class="es">Plomería</i><i class="en" lang="en">Plumbing</i></span><span><i class="es">Electricidad</i><i class="en" lang="en">Electrical</i></span><span><i class="es">Aire acondicionado</i><i class="en" lang="en">Air conditioning</i></span><span><i class="es">Refrigeración</i><i class="en" lang="en">Refrigeration</i></span><span><i class="es">Seguridad y CCTV</i><i class="en" lang="en">Security and CCTV</i></span><span><i class="es">Imagen y rotulación</i><i class="en" lang="en">Branding and signage</i></span><span><i class="es">Mantenimiento</i><i class="en" lang="en">Maintenance</i></span><span><i class="es">Limpieza</i><i class="en" lang="en">Cleaning</i></span><span><i class="es">Jardinería</i><i class="en" lang="en">Gardening</i></span>
-<span><i class="es">Construcción</i><i class="en" lang="en">Construction</i></span><span><i class="es">Pintura</i><i class="en" lang="en">Painting</i></span><span><i class="es">Vidriería</i><i class="en" lang="en">Glazing</i></span><span><i class="es">Herrería</i><i class="en" lang="en">Metalwork</i></span><span><i class="es">Cerrajería</i><i class="en" lang="en">Locksmith</i></span><span><i class="es">Plomería</i><i class="en" lang="en">Plumbing</i></span><span><i class="es">Electricidad</i><i class="en" lang="en">Electrical</i></span><span><i class="es">Aire acondicionado</i><i class="en" lang="en">Air conditioning</i></span><span><i class="es">Refrigeración</i><i class="en" lang="en">Refrigeration</i></span><span><i class="es">Seguridad y CCTV</i><i class="en" lang="en">Security and CCTV</i></span><span><i class="es">Imagen y rotulación</i><i class="en" lang="en">Branding and signage</i></span><span><i class="es">Mantenimiento</i><i class="en" lang="en">Maintenance</i></span><span><i class="es">Limpieza</i><i class="en" lang="en">Cleaning</i></span><span><i class="es">Jardinería</i><i class="en" lang="en">Gardening</i></span>
+<span><i class="es">Construcción</i><i class="en" lang="en">Construction</i></span><span><i class="es">Pintura</i><i class="en" lang="en">Painting</i></span><span><i class="es">Vidriería</i><i class="en" lang="en">Glazing</i></span><span><i class="es">Herrería</i><i class="en" lang="en">Metalwork</i></span><span><i class="es">Cerrajería</i><i class="en" lang="en">Locksmith</i></span><span><i class="es">Plomería</i><i class="en" lang="en">Plumbing</i></span><span><i class="es">Electricidad</i><i class="en" lang="en">Electrical</i></span><span><i class="es">Cableado estructurado</i><i class="en" lang="en">Structured cabling</i></span><span><i class="es">Aire acondicionado</i><i class="en" lang="en">Air conditioning</i></span><span><i class="es">Refrigeración</i><i class="en" lang="en">Refrigeration</i></span><span><i class="es">Seguridad y CCTV</i><i class="en" lang="en">Security and CCTV</i></span><span><i class="es">Imagen y rotulación</i><i class="en" lang="en">Branding and signage</i></span><span><i class="es">Mantenimiento</i><i class="en" lang="en">Maintenance</i></span><span><i class="es">Limpieza</i><i class="en" lang="en">Cleaning</i></span><span><i class="es">Jardinería</i><i class="en" lang="en">Gardening</i></span>
+<span><i class="es">Construcción</i><i class="en" lang="en">Construction</i></span><span><i class="es">Pintura</i><i class="en" lang="en">Painting</i></span><span><i class="es">Vidriería</i><i class="en" lang="en">Glazing</i></span><span><i class="es">Herrería</i><i class="en" lang="en">Metalwork</i></span><span><i class="es">Cerrajería</i><i class="en" lang="en">Locksmith</i></span><span><i class="es">Plomería</i><i class="en" lang="en">Plumbing</i></span><span><i class="es">Electricidad</i><i class="en" lang="en">Electrical</i></span><span><i class="es">Cableado estructurado</i><i class="en" lang="en">Structured cabling</i></span><span><i class="es">Aire acondicionado</i><i class="en" lang="en">Air conditioning</i></span><span><i class="es">Refrigeración</i><i class="en" lang="en">Refrigeration</i></span><span><i class="es">Seguridad y CCTV</i><i class="en" lang="en">Security and CCTV</i></span><span><i class="es">Imagen y rotulación</i><i class="en" lang="en">Branding and signage</i></span><span><i class="es">Mantenimiento</i><i class="en" lang="en">Maintenance</i></span><span><i class="es">Limpieza</i><i class="en" lang="en">Cleaning</i></span><span><i class="es">Jardinería</i><i class="en" lang="en">Gardening</i></span>
 </div>
 <div class="gtab" role="img" aria-label="Guatemala"><img src="assets/img/quetzal.png" alt="" style="display:block;height:24px;width:auto;flex:0 0 auto"></div>
 <label class="pz"><input type="checkbox" id="mqp" aria-label="Pausar animación de la banda de especialidades"><span><i class="es">PAUSAR</i><i class="en" lang="en">PAUSE</i></span></label>
@@ -292,11 +302,11 @@ i.es,i.en{font-style:normal}
 <b><i class="es">Soluciones de emergencia</i><i class="en" lang="en">Emergency solutions</i></b>
 <span class="d"><i class="es">Atendemos urgencias de mantenimiento y reparación. <br>El servicio se cotiza según el caso y se ejecuta una vez aprobado el costo.</i><i class="en" lang="en">We handle urgent maintenance and repair needs. The service is quoted case by case and carried out once the cost is approved.</i></span>
 </div>
-<a class="msr" href="#contacto">
+<div class="msr">
 <span class="i"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>
 <b><i class="es">¿Algo más? Cuenta con nosotros.</i><i class="en" lang="en">Anything else? Count on us.</i></b>
 <span class="d"><i class="es">Si no lo ves en la lista, escríbenos. Con gusto te ayudamos.</i><i class="en" lang="en">Not on the list? Write to us. We’ll gladly help.</i></span>
-</a>
+</div>
 </div>
 </div>
 </section>
