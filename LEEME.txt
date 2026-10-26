@@ -1,0 +1,16 @@
+VST · Sitio web (Virgo Servicios Tecnológicos S. A.)
+
+Contenido
+- index.html   Página para computadora y tableta.
+- movil.html   Página para celular (se abre sola en pantallas de 700 px o menos).
+- assets/      Logos, sello, banderas y fotografías.
+
+Publicar
+1. Suba la carpeta completa, con index.html en la raíz del dominio (cPanel, Netlify, Vercel, GitHub Pages u otro hosting estático).
+2. No necesita base de datos ni servidor: es HTML y CSS. Las tipografías (Bricolage Grotesque, Manrope, Instrument Serif) se cargan desde Google Fonts, por lo que necesita internet para verse como en el diseño.
+3. Los botones "Cotizar" llevan a la sección de contacto, que usa el correo ventas@vstgt.com (enlace mailto). No hay formulario.
+
+Pendiente antes de publicar
+- Confirmar teléfono y correo reales y reemplazar si cambian.
+- Sustituir las fotografías de Wikimedia Commons por fotos propias o confirmar su licencia (el pie de página las acredita).
+- Agregar sus herramientas de analítica o dominio propio si las usa.
